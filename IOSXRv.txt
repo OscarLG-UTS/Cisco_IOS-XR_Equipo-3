@@ -1,0 +1,11 @@
+interface GigabitEthernet0/0/0/0
+description Nornir VsCode @Miguelangel
+no shutdown
+ipv4 address 192.168.130.1 255.255.255.0
+exit
+interface GigabitEthernet0/0/0/1
+description Nornir VsCode @Miguelangel
+no shutdown
+ipv4 address 192.168.140.1 255.255.255.0
+end
+yes
