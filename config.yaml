@@ -1,0 +1,10 @@
+---
+inventory:
+     plugin: SimpleInventory
+     options:
+         host_file: "C:/Users/MECOSDE/Desktop/Cisco_XRv/hosts.yaml"
+         group_file: "C:/Users/MECOSDE/Desktop/Cisco_XRv/groups.yaml"
+runner:
+  plugin: threaded
+  options:
+    num_workers: 20
